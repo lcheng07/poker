@@ -1,3 +1,23 @@
 <h1>Welcome to the KIEI-925 Casino!</h1>
 
-<!-- Deal the cards here -->
+<%
+card1number = [2,3,4,5,6,7,8,9,10,"ace","jack","king","queen"].sample
+card2number = [2,3,4,5,6,7,8,9,10,"ace","jack","king","queen"].sample
+card3number = [2,3,4,5,6,7,8,9,10,"ace","jack","king","queen"].sample
+card4number = [2,3,4,5,6,7,8,9,10,"ace","jack","king","queen"].sample
+card5number = [2,3,4,5,6,7,8,9,10,"ace","jack","king","queen"].sample
+
+card1suit = ["diamonds","hearts","spades","clubs"].sample
+card2suit = ["diamonds","hearts","spades","clubs"].sample
+card3suit = ["diamonds","hearts","spades","clubs"].sample
+card4suit = ["diamonds","hearts","spades","clubs"].sample
+card5suit = ["diamonds","hearts","spades","clubs"].sample
+%>
+
+<img src="http://golearntocode.com/images/cards/<%=card1number%>_of_<%=card1suit%>.png">
+<img src="http://golearntocode.com/images/cards/<%=card2number%>_of_<%=card2suit%>.png">
+<img src="http://golearntocode.com/images/cards/<%=card3number%>_of_<%=card3suit%>.png">
+<img src="http://golearntocode.com/images/cards/<%=card4number%>_of_<%=card4suit%>.png">
+<img src="http://golearntocode.com/images/cards/<%=card5number%>_of_<%=card5suit%>.png">
+
+<h2>Courtesy of Lucy Cheng</h2>
